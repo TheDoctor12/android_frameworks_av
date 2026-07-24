@@ -47,12 +47,14 @@ cc_defaults {
         "libui",
         "libutils",
         "android.hardware.graphics.bufferqueue@1.0",
+        "android.hardware.graphics.bufferqueue@2.0",
     ],
 
     export_shared_lib_headers: [
         "libhidlmemory",
         "libstagefright_foundation",
         "android.hardware.graphics.bufferqueue@1.0",
+        "android.hardware.graphics.bufferqueue@2.0",
     ],
 
     cflags: [
